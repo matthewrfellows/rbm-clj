@@ -14,12 +14,16 @@ Incanter, glos, and quil are required for the examples.
 Sample usage can be found in examples.clj.
 
 For example, at the repl:
+
 (use 'rbm-clj.examples)
+
 (example0)
 
 The image data needed to run the examples can be found
 here: http://yann.lecun.com/exdb/mnist/.
+
 Download and uncompress the file called t10k-images.idx3-ubyte.gz.
+
 In examples.clj, set the path in the def for test-file-name to point to this file.
 
 Some of the examples in examples.clj save data to disk. The output directory for saving must be set appropriately.
